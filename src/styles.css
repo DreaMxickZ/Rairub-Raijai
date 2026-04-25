@@ -2,27 +2,28 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg-base: #0a0f1a;
-  --bg-card: #111827;
-  --bg-card2: #1a2235;
-  --bg-hover: #1e2d45;
-  --border: #1f2f47;
-  --border-light: #243450;
+  --bg-base: #111827;        /* เดิม #0a0f1a → สว่างขึ้น */
+  --bg-card: #1a2538;        /* เดิม #111827 → สว่างขึ้น */
+  --bg-card2: #243045;       /* เดิม #1a2235 → สว่างขึ้น */
+  --bg-hover: #2a3d58;       /* เดิม #1e2d45 → สว่างขึ้น */
+  --border: #2d4060;         /* เดิม #1f2f47 → สว่างขึ้น */
+  --border-light: #334a6e;   /* เดิม #243450 → สว่างขึ้น */
 
-  --text-primary: #f1f5f9;
-  --text-secondary: #94a3b8;
-  --text-muted: #4b6280;
+  --text-primary: #ffffff;   /* เดิม #f1f5f9 → ขาวจัดขึ้น */
+  --text-secondary: #b0c4de; /* เดิม #94a3b8 → สว่างขึ้น */
+  --text-muted: #6b8aad;     /* เดิม #4b6280 → สว่างขึ้น */
 
-  --green: #34d399;
-  --green-dim: #065f46;
-  --red: #f87171;
-  --red-dim: #7f1d1d;
-  --blue: #60a5fa;
-  --yellow: #fbbf24;
+  --green: #4eeaa8;          /* เดิม #34d399 → สว่างขึ้น */
+  --green-dim: #0a7a58;      /* เดิม #065f46 → สว่างขึ้น */
+  --red: #ff8f8f;            /* เดิม #f87171 → สว่างขึ้น */
+  --red-dim: #9b2525;        /* เดิม #7f1d1d → สว่างขึ้น */
+  --blue: #7db8ff;           /* เดิม #60a5fa → สว่างขึ้น */
+  --yellow: #fcd34d;         /* เดิม #fbbf24 → สว่างขึ้น */
 
-  --accent: #6366f1;
-  --accent-hover: #4f46e5;
+  --accent: #818cf8;         /* เดิม #6366f1 → สว่างขึ้น */
+  --accent-hover: #6366f1;   /* เดิม #4f46e5 → สว่างขึ้น */
 
+  /* ส่วนที่เหลือเหมือนเดิมทุกอย่าง */
   --radius: 12px;
   --radius-sm: 8px;
   --shadow: 0 4px 24px rgba(0,0,0,0.4);
